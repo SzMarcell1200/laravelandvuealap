@@ -2,10 +2,14 @@
 
 ```
 Open Docker.
+Turn off any running docker container.
 download laravel.bat
 run => laravel.bat / give parameter (project name).
-run => docker-compose exec composer require laravel/ui:^2.4
-run => docker-compose exec php php artisan ui vue --auth
+generate app key. and reload.
+run => docker-compose exec php composer require laravel/ui
+run => docker-compose exec php php artisan ui vue
+run => npm install
+run => npm run dev
 ```
 
 # Laravel kiinduó projekt

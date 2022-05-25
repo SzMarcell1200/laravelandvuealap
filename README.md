@@ -8,7 +8,7 @@ A tároló klónozásával hozzunk létre egy új projektet.
 A `projekt_neve` helyére illesszük be, hogy melyik mappában szeretnénl ezt megtenni.
 
 ```bash
-git clone https://github.com/rcsnjszg/laravel-alap.git projekt_neve
+git clone https://github.com/SzMarcell1200/laravelandvuealap projekt_neve
 ```
 
 Amennyiben nem lenne git a gépünkön telepítve, az előbbi műveletet docker segítségével is megtehetjük:

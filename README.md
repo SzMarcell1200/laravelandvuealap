@@ -1,12 +1,12 @@
 # Setup:
 
+```
 Open Docker.
 download laravel.bat
 run => laravel.bat / give parameter (project name).
 run => docker-compose exec composer require laravel/ui:^2.4
 run => docker-compose exec php php artisan ui vue --auth
-
-
+```
 
 # Laravel kiinduó projekt
 

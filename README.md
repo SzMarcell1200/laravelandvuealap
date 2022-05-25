@@ -4,7 +4,7 @@
 Open Docker.
 Turn off any running docker container.
 download laravel.bat
-run => laravel.bat / give parameter (project name).
+run => laravel.bat / give parameter (project name) (in CMD).
 generate app key. and reload.
 run => docker-compose exec php composer require laravel/ui
 run => docker-compose exec php php artisan ui vue

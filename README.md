@@ -9,6 +9,7 @@ generate app key. and reload.
 run => docker-compose exec php composer require laravel/ui
 run => docker-compose exec php php artisan ui bootstrap
 run => docker-compose exec php php artisan ui vue
+npm install --save vue@next && npm install --save-dev vue-loader@next
 run => npm install
 run => npm run dev
 ```

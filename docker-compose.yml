@@ -18,6 +18,7 @@ services:
     networks:
       - webapp
   php:
+    image: rcsnjszg/php:0.1
     build:
       context: ./docker/php
       dockerfile: Dockerfile

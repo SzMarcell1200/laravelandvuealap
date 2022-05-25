@@ -14,6 +14,36 @@ run => npm install
 run => npm run dev
 ```
 
+```
+Commands:
+docker-compose exec php php artisan migrate
+docker-compose exec php php artisan migrate:refresh --seed
+docker-compose exec php php artisan make:migration create_flights_table
+php artisan migrate:fresh --seed
+php artisan make:controller PhotoController --resource
+
+php artisan make:model Flight -mscr //Model, Migration, Seed, ResourceController
+php artisan make:resource FlightResource
+```
+
+```
+links:
+Generating Model Classes:
+https://laravel.com/docs/8.x/eloquent#generating-model-classes
+
+Controllers:
+https://laravel.com/docs/8.x/controllers#resource-controllers
+
+Migrations:
+https://laravel.com/docs/8.x/migrations#main-content
+
+Seeds:
+https://laravel.com/docs/8.x/seeding#main-content
+
+Model Resources:
+https://laravel.com/docs/8.x/eloquent-resources#main-content
+```
+
 # Laravel kiinduó projekt
 
 ## Szerver előkészítése
